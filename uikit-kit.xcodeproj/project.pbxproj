@@ -12,6 +12,7 @@
 		2940B89F20AD09BD0020B858 /* UIKitHelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2940B89820AD09BD0020B858 /* UIKitHelp.framework */; };
 		2940B8A020AD09BD0020B858 /* UIKitHelp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2940B89820AD09BD0020B858 /* UIKitHelp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2940B8A620AD09E00020B858 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940B8A520AD09E00020B858 /* UIView+Extensions.swift */; };
+		29AD559C20C24F3C006BF3C2 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD559B20C24F3C006BF3C2 /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +40,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2940B87E20AD09660020B858 /* uikit-help.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-help.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2940B87E20AD09660020B858 /* uikit-kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2940B88120AD09660020B858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2940B88D20AD09690020B858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2940B89820AD09BD0020B858 /* UIKitHelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitHelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2940B89A20AD09BD0020B858 /* UIKitHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitHelp.h; sourceTree = "<group>"; };
 		2940B89B20AD09BD0020B858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2940B8A520AD09E00020B858 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		29AD559B20C24F3C006BF3C2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,7 @@
 		2940B87F20AD09660020B858 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2940B87E20AD09660020B858 /* uikit-help.app */,
+				2940B87E20AD09660020B858 /* uikit-kit.app */,
 				2940B89820AD09BD0020B858 /* UIKitHelp.framework */,
 			);
 			name = Products;
@@ -97,9 +99,10 @@
 		2940B89920AD09BD0020B858 /* UIKitHelp */ = {
 			isa = PBXGroup;
 			children = (
+				2940B8A520AD09E00020B858 /* UIView+Extensions.swift */,
 				2940B89A20AD09BD0020B858 /* UIKitHelp.h */,
 				2940B89B20AD09BD0020B858 /* Info.plist */,
-				2940B8A520AD09E00020B858 /* UIView+Extensions.swift */,
+				29AD559B20C24F3C006BF3C2 /* UIViewController+Extensions.swift */,
 			);
 			path = UIKitHelp;
 			sourceTree = "<group>";
@@ -118,9 +121,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2940B87D20AD09660020B858 /* uikit-help */ = {
+		2940B87D20AD09660020B858 /* uikit-kit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2940B89020AD09690020B858 /* Build configuration list for PBXNativeTarget "uikit-help" */;
+			buildConfigurationList = 2940B89020AD09690020B858 /* Build configuration list for PBXNativeTarget "uikit-kit" */;
 			buildPhases = (
 				2940B87A20AD09660020B858 /* Sources */,
 				2940B87B20AD09660020B858 /* Frameworks */,
@@ -132,9 +135,9 @@
 			dependencies = (
 				2940B89E20AD09BD0020B858 /* PBXTargetDependency */,
 			);
-			name = "uikit-help";
+			name = "uikit-kit";
 			productName = "uikit-help";
-			productReference = 2940B87E20AD09660020B858 /* uikit-help.app */;
+			productReference = 2940B87E20AD09660020B858 /* uikit-kit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2940B89720AD09BD0020B858 /* UIKitHelp */ = {
@@ -174,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2940B87920AD09660020B858 /* Build configuration list for PBXProject "uikit-help" */;
+			buildConfigurationList = 2940B87920AD09660020B858 /* Build configuration list for PBXProject "uikit-kit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2940B87D20AD09660020B858 /* uikit-help */,
+				2940B87D20AD09660020B858 /* uikit-kit */,
 				2940B89720AD09BD0020B858 /* UIKitHelp */,
 			);
 		};
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AD559C20C24F3C006BF3C2 /* UIViewController+Extensions.swift in Sources */,
 				2940B8A620AD09E00020B858 /* UIView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UUR9483U2;
 				INFOPLIST_FILE = "$(SRCROOT)/demoApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UUR9483U2;
 				INFOPLIST_FILE = "$(SRCROOT)/demoApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,12 +404,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6UUR9483U2;
+				DEVELOPMENT_TEAM = 2A7A6XU69G;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UIKitHelp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,12 +435,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 6UUR9483U2;
+				DEVELOPMENT_TEAM = 2A7A6XU69G;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UIKitHelp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2940B87920AD09660020B858 /* Build configuration list for PBXProject "uikit-help" */ = {
+		2940B87920AD09660020B858 /* Build configuration list for PBXProject "uikit-kit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2940B88E20AD09690020B858 /* Debug */,
@@ -461,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2940B89020AD09690020B858 /* Build configuration list for PBXNativeTarget "uikit-help" */ = {
+		2940B89020AD09690020B858 /* Build configuration list for PBXNativeTarget "uikit-kit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2940B89120AD09690020B858 /* Debug */,

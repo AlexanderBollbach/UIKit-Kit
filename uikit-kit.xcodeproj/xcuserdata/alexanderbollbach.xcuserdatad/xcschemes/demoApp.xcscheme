@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2940B87D20AD09660020B858"
-               BuildableName = "uikit-help.app"
-               BlueprintName = "uikit-help"
-               ReferencedContainer = "container:uikit-help.xcodeproj">
+               BuildableName = "uikit-kit.app"
+               BlueprintName = "uikit-kit"
+               ReferencedContainer = "container:uikit-kit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2940B87D20AD09660020B858"
-            BuildableName = "uikit-help.app"
-            BlueprintName = "uikit-help"
-            ReferencedContainer = "container:uikit-help.xcodeproj">
+            BuildableName = "uikit-kit.app"
+            BlueprintName = "uikit-kit"
+            ReferencedContainer = "container:uikit-kit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2940B87D20AD09660020B858"
-            BuildableName = "uikit-help.app"
-            BlueprintName = "uikit-help"
-            ReferencedContainer = "container:uikit-help.xcodeproj">
+            BuildableName = "uikit-kit.app"
+            BlueprintName = "uikit-kit"
+            ReferencedContainer = "container:uikit-kit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2940B87D20AD09660020B858"
-            BuildableName = "uikit-help.app"
-            BlueprintName = "uikit-help"
-            ReferencedContainer = "container:uikit-help.xcodeproj">
+            BuildableName = "uikit-kit.app"
+            BlueprintName = "uikit-kit"
+            ReferencedContainer = "container:uikit-kit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "2940B89720AD09BD0020B858"
                BuildableName = "UIKitHelp.framework"
                BlueprintName = "UIKitHelp"
-               ReferencedContainer = "container:uikit-help.xcodeproj">
+               ReferencedContainer = "container:uikit-kit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "2940B89720AD09BD0020B858"
             BuildableName = "UIKitHelp.framework"
             BlueprintName = "UIKitHelp"
-            ReferencedContainer = "container:uikit-help.xcodeproj">
+            ReferencedContainer = "container:uikit-kit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "2940B89720AD09BD0020B858"
             BuildableName = "UIKitHelp.framework"
             BlueprintName = "UIKitHelp"
-            ReferencedContainer = "container:uikit-help.xcodeproj">
+            ReferencedContainer = "container:uikit-kit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
